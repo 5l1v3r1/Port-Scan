@@ -1,5 +1,5 @@
 ###############################################################
-### version 1.0:
+### HELLO :)
 +++ Description:
 Port-Scan is used to scan open Port on Target's machine
 +++ Created on:
@@ -8,6 +8,8 @@ Port-Scan is used to scan open Port on Target's machine
 +++ Impact:
 - The first step to hack into a System :)
 - Help You to targeting more things on Your victim's machine
+###############################################################
+### version 1.0:
 +++ Feature
 - Easy to use
 - Scan Speed --> 0.2 ms / port (5 port/second)
@@ -23,5 +25,17 @@ Port-Scan is used to scan open Port on Target's machine
 - Windows 10
 - ParrotSec v4
 - Kali Linux (rolling) 2018.3
-###
 ###############################################################
+### version 1.1:
++++ Feature:
+- Bug fixed
+- Change Banner
+###############################################################
+### version 1.2:
++++ Feature:
+- Bug fixed
+- Change Banner (one banner only)
+- Moving from OptParse into ArgParse
+- Easy to Use
+###############################################################
+###

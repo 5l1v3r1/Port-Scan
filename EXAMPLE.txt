@@ -1,0 +1,33 @@
+#) Preparing
+First, make sure You have installed the required module...
+~) Windows:
+    C:\Folders\Port-Scan\> pip install -r requirements.txt
+         or
+    C:\Folders\Port-Scan\> pip2 install -r requirements.txt
+~) Linux:
+    $ pip install -r requirements.txt
+         or
+    $ pip2 install -r requirements.txt
+
+#) How to Use ??? :
+How to use this Tool? check this Tutorial below
+1) Show help:
+   $ python Port-Scan.py --help
+2) Set Target to Scan:
+   $ python Port-Scan.py --target=192.168.1.1
+     or
+   $ python Port-Scan.py --target=www.example.com
+3) Set Scanning Range (Port):
+   $ python Port-Scan.py --target=www.example.com --range=500
+4) Set Scanning Timeout (each port):
+   $ python Port-Scan.py --target=www.example.com --timeout=0.2
+     (WARNING: 0.1 is not recommended)
+
+#) Default configuration:
+target: <none> (Need to set)
+range: 1024 (default scanning range)
+timeout: 0.5 (default scanning timeout)
+
+So...don't forget to specify the Target :)
+For quick use...just set the Target, anything else
+will be set with Default configuration...
